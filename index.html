@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -17,14 +18,14 @@
         <div class="container-nav">
                 <nav class="nav">
                     <ul class="left">
-                        <span href="#home" class="material-icons md-48 md-light">
+                        <a href="#home" class="material-icons md-48 md-light">
                             home
-                         </span> 
+                        </a> 
                         <li class="left-li"><a href="#about">About</a></li>
                         <li class="left-li"><a href="#work">Work</a></li>
                         <li class="left-li"><a href="#resume">Resume</a></li>
                         <li class="left-li"><a href="#contact">Contact</a></li>                    </ul>
-                    <ul class="right">
+                     <ul class="right">
                         <li><a href="">in</a></li>
                         <li><a href="">f</a></li>
                         <li><a href="">Bë</a></li>
@@ -71,9 +72,37 @@
 
     </section>
 
-    <!-- Work Section  -->
 
-    <section class="work-sections" id="work">
+    <!-- Work Section  -->
+     <!-- Modal -->
+     <section class="work-sections" id="work">
+      <div id="myModal" class="modal">
+          <div class="modal-content">
+              <div class="left-side">
+                  <ul>
+                      <li>Research</li>
+                      <li>Definition</li>
+                      <li>Ideation</li>
+                      <li>Prototyping</li>
+                      <li>Testing</li>
+                  </ul>
+              </div>
+              <div class="right-side">  
+                <span class="close">&times;</span>
+                  <h1 class="project-header">The Process.</h1>
+                  <h3 class="project-name">Project Name</h3>
+                  <h3 class="project-date">1/1/2020-1/20/2020</h3>
+                  <h1 class="platform">Platform</h1>
+                  <span class="platform-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis harum, repellat voluptas, esse quia recusa</span>
+                  <h1 class="project">Project Description</h1>
+                  <span class="project-desc">Lorem ipsum dolor sit amet consectetur <img class="portfolio-img" src="portfolio.png" alt="portfolio image">
+                    adipisicing elit. Possimus veritatis harum, repellat voluptas, esse quia recusandae </span>
+                  <h1 class="activities">Activities</h1>
+                  <span class="activities-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis harum, repellat voluptas, esse quia</span>               
+              </div>
+          </div>
+      </div>
+
         <div class="work-section">
             <div class="work-images">
                 <img class="img-1" src="portfolio.png" alt="portfolio-img">
@@ -81,7 +110,6 @@
                 <img class="img-3" src="portfolio.png" alt="portfolio-img">
                 <img class="img-4" src="portfolio.png" alt="portfolio-img">
             </div>
-
            <div class="work-content">
                 <h1 class="work-title">
                     Work.
@@ -100,6 +128,7 @@
     <!-- Resume Section -->
 
     <section class="resume" id="resume">
+        <h1 class="resume-header">Resume.</h1>
         <div class="resume">
             <img class="resume-img" src="it-resume.png" alt="resume">
         </div>
@@ -118,15 +147,19 @@
                 <input type="email" class="contact-form-text" placeholder="Your Email">
                 <input type="text" class="contact-form-text" placeholder="Your Phone Number">
                 <textarea type="text" class="contact-form-text" placeholder="Your Message"></textarea>
-                <input type="submit" class="contact-form-btn" value="send">
+                <input type="submit" class="contact-form-btn" value="SEND">
             </form>
         </div>
-
     </section>
 
 
 
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
 
+
+    <script async src="index.js"></script>
 
 </body>
 </html> 
