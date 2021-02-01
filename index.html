@@ -23,6 +23,7 @@
                         </a> 
                         <li class="left-li"><a href="#about">About</a></li>
                         <li class="left-li"><a href="#work">Work</a></li>
+                        <li class="left-li"><a href="#skills">Skills</a></li>
                         <li class="left-li"><a href="#resume">Resume</a></li>
                         <li class="left-li"><a href="#contact">Contact</a></li>                    </ul>
                      <ul class="right">
@@ -78,37 +79,18 @@
      <!-- Modal -->
      <section class="work-sections" id="work">
       <div id="myModal" class="modal">
-          <div class="modal-content">
-              <div class="left-side">
-                  <ul>
-                      <li>Research</li>
-                      <li>Definition</li>
-                      <li>Ideation</li>
-                      <li>Prototyping</li>
-                      <li>Testing</li>
-                  </ul>
-              </div>
-              <div class="right-side">  
-                <span class="close">&times;</span>
-                  <h1 class="project-header">The Process.</h1>
-                  <h3 class="project-name">Project Name</h3>
-                  <h3 class="project-date">1/1/2020-1/20/2020</h3>
-                  <h1 class="platform">Platform</h1>
-                  <span class="platform-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis harum, repellat voluptas, esse quia recusa</span>
-                  <h1 class="project">Project Description</h1>
-                  <span class="project-desc">Lorem ipsum dolor sit amet consectetur <img class="portfolio-img" src="portfolio.png" alt="portfolio image">
-                    adipisicing elit. Possimus veritatis harum, repellat voluptas, esse quia recusandae </span>
-                  <h1 class="activities">Activities</h1>
-                  <span class="activities-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis harum, repellat voluptas, esse quia</span>               
-              </div>
+          <div class="modal-content" id="modal-content">
+            <div class="right-side">
+            <span class="close">&times;</span>
+            </div>
           </div>
       </div>
 
         <div class="work-section">
             <div class="work-images">
-                <img class="img-1" src="portfolio.png" alt="portfolio-img">
-                <img class="img-2" src="portfolio.png" alt="portfolio-img">
-                <img class="img-3" src="portfolio.png" alt="portfolio-img">
+                <img class="img-1" src="happy_plate.png" alt="portfolio-img">
+                <img class="img-2" id="wide-image" src="department.png" alt="portfolio-img">
+                <img class="img-3"id="wide-image" src="feeding_america.png" alt="portfolio-img">
             </div>
            <div class="work-content">
                 <h1 class="work-title">
@@ -126,7 +108,7 @@
 
     <!--Skills Section-->
 
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="skills-container">
             <h1 class="skills-header">Skills.</h1>
             <div class="list-container">
@@ -204,11 +186,10 @@
         <div class="contact-section">
             <h1 class="contact-header">Contact.</h1>
             <div class="border"></div>
-            <form class="contact-form" action='' method="post">
-                <input type="text" class="contact-form-text" placeholder="Your Name">
-                <input type="email" class="contact-form-text" placeholder="Your Email">
-                <input type="text" class="contact-form-text" placeholder="Your Phone Number">
-                <textarea type="text" class="contact-form-text" placeholder="Your Message"></textarea>
+            <form class="contact-form" action='https://formspree.io/f/xjvpzgeb' method="post">
+                <input type="text" class="contact-form-text"  name="name" placeholder="Your Name">
+                <input type="email" class="contact-form-text"  name="_replyto" placeholder="Your Email">
+                <textarea type="text" class="contact-form-text"  name="message" placeholder="Your Message"></textarea>
                 <input type="submit" class="contact-form-btn" value="SEND">
             </form>
         </div>
@@ -217,7 +198,11 @@
 
 
     <footer>
-        <h1>FOOTER</h1>
+        <div class="footer">
+            <h3>&copy; 2021</h3>
+            <span class="empty-space-2"></span>
+            <h3>Hand Crafted By Ellen Reynolds.</h3>
+        </div>
     </footer>
 
 
