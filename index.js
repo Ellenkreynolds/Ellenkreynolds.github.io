@@ -10,7 +10,7 @@ const workInfo=[
   {
     id: 2,
     image: "department.png",
-    iframe: "https://xd.adobe.com/view/c9c1e7e3-84c2-4f03-a02c-d2505c8da937-9c92/screen/d207aaf7-3944-449a-b117-302bb1882926?fbclid=IwAR2mNpDHbLSz1KAyS0JFGoL05BrwCx-AHiMXOtXCAea4pN2yFYPhuio7WFc&fullscreen",
+    iframe:" https://xd.adobe.com/embed/c9c1e7e3-84c2-4f03-a02c-d2505c8da937-9c92/?fullscreen" ,
     title1: "Website Prototype",
     title2: "D.O.I Redesign RWD",
     summary: "Redesigned the Department of Interior Website and Mobile Application RWD. Changed color scheme, navigation bar and footer content. "
